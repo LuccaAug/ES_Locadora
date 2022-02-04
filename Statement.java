@@ -1,5 +1,5 @@
 import java.util.Enumeration;
 
-public class Statement {
-
+public abstract class Statement {
+  public abstract String value(Customer aCustomer);
 }
